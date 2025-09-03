@@ -1,4 +1,0 @@
-C:\Users\afhac\Documents\cAlgo\Sources\Plugins\Pattern Drawing\Pattern Drawing\bin\Release\net6.0-windows\publish\Pattern Drawing.dll
-C:\Users\afhac\Documents\cAlgo\Sources\Plugins\Pattern Drawing\Pattern Drawing\bin\Release\net6.0-windows\publish\Pattern Drawing.deps.json
-C:\Users\afhac\Documents\cAlgo\Sources\Plugins\Pattern Drawing\Pattern Drawing\bin\Release\net6.0-windows\publish\Pattern Drawing.pdb
-C:\Users\afhac\Documents\cAlgo\Sources\Plugins\Pattern Drawing\Pattern Drawing\bin\Release\net6.0-windows\publish\cAlgo.API.dll
