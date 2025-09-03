@@ -330,7 +330,7 @@ namespace cAlgo.Patterns
             {
                 var level = rectangle.Y2 > rectangle.Y1 ? rectangle.Y1 + lineLevels[i] : rectangle.Y1 - lineLevels[i];
 
-                var horizontalLine = horizontalLines[i];
+                var horizontalLine = horizontalLines.Length > i ? horizontalLines[i] : null;
 
                 if (horizontalLine == null)
                 {
@@ -377,7 +377,7 @@ namespace cAlgo.Patterns
 
                 if (time > rectangleEndTime) time = rectangleEndTime;
 
-                var verticalLine = verticalLines[i];
+                var verticalLine = verticalLines.Length > i ? verticalLines[i] : null;
 
                 if (verticalLine == null)
                 {
