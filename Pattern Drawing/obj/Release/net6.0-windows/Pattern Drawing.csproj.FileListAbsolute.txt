@@ -1,0 +1,22 @@
+C:\Users\afhac\Documents\cAlgo\Sources\Plugins\Pattern Drawing\Pattern Drawing\bin\Release\net6.0-windows\Pattern Drawing.deps.json
+C:\Users\afhac\Documents\cAlgo\Sources\Plugins\Pattern Drawing\Pattern Drawing\bin\Release\net6.0-windows\Pattern Drawing.dll
+C:\Users\afhac\Documents\cAlgo\Sources\Plugins\Pattern Drawing\Pattern Drawing\bin\Release\net6.0-windows\ref\Pattern Drawing.dll
+C:\Users\afhac\Documents\cAlgo\Sources\Plugins\Pattern Drawing\Pattern Drawing\bin\Release\net6.0-windows\Pattern Drawing.pdb
+C:\Users\afhac\Documents\cAlgo\Sources\Plugins\Pattern Drawing\Pattern Drawing\obj\Release\net6.0-windows\Pattern Drawing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\afhac\Documents\cAlgo\Sources\Plugins\Pattern Drawing\Pattern Drawing\obj\Release\net6.0-windows\Pattern Drawing.csproj.CoreCompileInputs.cache
+C:\Users\afhac\Documents\cAlgo\Sources\Plugins\Pattern Drawing\Pattern Drawing\obj\Release\net6.0-windows\Pattern Drawing.dll
+C:\Users\afhac\Documents\cAlgo\Sources\Plugins\Pattern Drawing\Pattern Drawing\obj\Release\net6.0-windows\ref\Pattern Drawing.dll
+C:\Users\afhac\Documents\cAlgo\Sources\Plugins\Pattern Drawing\Pattern Drawing\obj\Release\net6.0-windows\Pattern Drawing.pdb
+C:\Users\afhac\AppData\Local\Temp\hqc2t1g5.4wy\Pattern Drawing.deps.json
+C:\Users\afhac\AppData\Local\Temp\hqc2t1g5.4wy\Pattern Drawing.dll
+C:\Users\afhac\AppData\Local\Temp\hqc2t1g5.4wy\ref\Pattern Drawing.dll
+C:\Users\afhac\AppData\Local\Temp\hqc2t1g5.4wy\Pattern Drawing.pdb
+C:\Users\afhac\AppData\Local\Temp\utocioob.y3k\Pattern Drawing.deps.json
+C:\Users\afhac\AppData\Local\Temp\utocioob.y3k\Pattern Drawing.dll
+C:\Users\afhac\AppData\Local\Temp\utocioob.y3k\ref\Pattern Drawing.dll
+C:\Users\afhac\AppData\Local\Temp\utocioob.y3k\Pattern Drawing.pdb
+C:\Users\afhac\AppData\Local\Temp\oypdx3fe.jbk\Pattern Drawing.deps.json
+C:\Users\afhac\AppData\Local\Temp\oypdx3fe.jbk\Pattern Drawing.dll
+C:\Users\afhac\AppData\Local\Temp\oypdx3fe.jbk\ref\Pattern Drawing.dll
+C:\Users\afhac\AppData\Local\Temp\oypdx3fe.jbk\Pattern Drawing.pdb
+C:\Users\afhac\Documents\cAlgo\Sources\Plugins\Pattern Drawing\Pattern Drawing\obj\Release\net6.0-windows\Pattern Drawing.csproj.AssemblyReference.cache

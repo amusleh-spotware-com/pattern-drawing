@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <EnableDefaultItems>False</EnableDefaultItems>
+        <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+        <UseWindowsForms>True</UseWindowsForms>
+    </PropertyGroup>
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>cAlgo</RootNamespace>
+        <AssemblyName>Pattern Drawing</AssemblyName>
+        <FileAlignment>512</FileAlignment>
+        <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="cTrader.Automate" Version="*-*"/>
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="ChartObjectModels\ChartObjectBaseModel.cs"/>
+        <Compile Include="ChartObjectModels\ChartObjectsSerializer.cs"/>
+        <Compile Include="ChartObjectModels\ChartShapeModel.cs"/>
+        <Compile Include="ChartObjectModels\ChartRectangleModel.cs"/>
+        <Compile Include="ChartObjectModels\DrawModelsOnChart.cs"/>
+        <Compile Include="ChartObjectModels\ChartObjectToModel.cs"/>
+        <Compile Include="ChartObjectModels\ChartTextModel.cs"/>
+        <Compile Include="ChartObjectModels\ChartVerticalLineModel.cs"/>
+        <Compile Include="ChartObjectModels\ChartTriangleModel.cs"/>
+        <Compile Include="ChartObjectModels\ChartTrendLineModel.cs"/>
+        <Compile Include="ChartObjectModels\IChartObjectModel.cs"/>
+        <Compile Include="Controls\ButtonsPanel.cs"/>
+        <Compile Include="Controls\PatternGroupButton.cs"/>
+        <Compile Include="Controls\PatternsRemoveAllButton.cs"/>
+        <Compile Include="Controls\PatternButton.cs"/>
+        <Compile Include="Controls\PatternsLoadButton.cs"/>
+        <Compile Include="Controls\PatternsSaveButton.cs"/>
+        <Compile Include="Controls\SettingsPanel.cs"/>
+        <Compile Include="Controls\ToggleButton.cs"/>
+        <Compile Include="Helpers\ChartPatternsVisibilityExtensions.cs"/>
+        <Compile Include="Helpers\ChartRectangleExtensions.cs"/>
+        <Compile Include="Helpers\DataSeriesAverageDistanceExtension.cs"/>
+        <Compile Include="Helpers\BarsOpenTimeExtensions.cs"/>
+        <Compile Include="Helpers\ChartObjectsIsPatternExtension.cs"/>
+        <Compile Include="Helpers\ChartTrendLineExtensions.cs"/>
+        <Compile Include="Helpers\DoubleToStringNonScientificExtension.cs"/>
+        <Compile Include="Helpers\ExceptionExtensions.cs"/>
+        <Compile Include="Helpers\Logger.cs"/>
+        <Compile Include="Helpers\SymbolTradingSessionExtensions.cs"/>
+        <Compile Include="Pattern Drawing.cs"/>
+        <Compile Include="Patterns\FibonacciChannelPattern.cs"/>
+        <Compile Include="Patterns\FibonacciChannelPatternSettings.cs"/>
+        <Compile Include="Patterns\FibonacciExpansionPattern.cs"/>
+        <Compile Include="Patterns\FibonacciExpansionPatternSettings.cs"/>
+        <Compile Include="Patterns\FibonacciRetracementPatternSettings.cs"/>
+        <Compile Include="Patterns\FibonacciTimeZonePatternSettings.cs"/>
+        <Compile Include="Patterns\GannFanPatternSettings.cs"/>
+        <Compile Include="Patterns\MeasureSettings.cs"/>
+        <Compile Include="Patterns\MeasurePattern.cs"/>
+        <Compile Include="Patterns\ModifiedSchiffPitchforkPatternSettings.cs"/>
+        <Compile Include="Patterns\OriginalPitchforkPatternSettings.cs"/>
+        <Compile Include="Patterns\PitchfanPattern.cs"/>
+        <Compile Include="Patterns\LineSettings.cs"/>
+        <Compile Include="Patterns\ModifiedSchiffPitchforkPattern.cs"/>
+        <Compile Include="Patterns\PitchfanPatternSettings.cs"/>
+        <Compile Include="Patterns\SchiffPitchforkPattern.cs"/>
+        <Compile Include="Patterns\OriginalPitchforkPattern.cs"/>
+        <Compile Include="Patterns\PercentLineSettings.cs"/>
+        <Compile Include="Patterns\SchiffPitchforkPatternSettings.cs"/>
+        <Compile Include="Patterns\TrendBasedFibonacciTimePattern.cs"/>
+        <Compile Include="Patterns\FibonacciTimeZonePattern.cs"/>
+        <Compile Include="Patterns\ElliottDoubleComboWavePattern.cs"/>
+        <Compile Include="Patterns\ElliottCorrectionWavePattern.cs"/>
+        <Compile Include="Patterns\ElliottTripleComboWavePattern.cs"/>
+        <Compile Include="Patterns\ElliottWaveDegree.cs"/>
+        <Compile Include="Patterns\ElliottWavePatternBase.cs"/>
+        <Compile Include="Patterns\ElliottTriangleWavePattern.cs"/>
+        <Compile Include="Patterns\ElliottImpulseWavePattern.cs"/>
+        <Compile Include="Patterns\SideFanSettings.cs"/>
+        <Compile Include="Patterns\FanSettings.cs"/>
+        <Compile Include="Patterns\FibonacciLevel.cs"/>
+        <Compile Include="Patterns\FibonacciRetracementPattern.cs"/>
+        <Compile Include="Patterns\GannBoxSettings.cs"/>
+        <Compile Include="Patterns\FanPatternBase.cs"/>
+        <Compile Include="Patterns\GannFanPattern.cs"/>
+        <Compile Include="Patterns\FibonacciSpeedResistanceFanPattern.cs"/>
+        <Compile Include="Patterns\GannSquarePattern.cs"/>
+        <Compile Include="Patterns\GannBoxPattern.cs"/>
+        <Compile Include="Patterns\FibonacciSpeedResistanceFanSettings.cs"/>
+        <Compile Include="Patterns\GannSquareSettings.cs"/>
+        <Compile Include="Patterns\PatternConfig.cs"/>
+        <Compile Include="Patterns\ThreeDrivesPattern.cs"/>
+        <Compile Include="Patterns\AbcdPattern.cs"/>
+        <Compile Include="Patterns\CypherPattern.cs"/>
+        <Compile Include="Patterns\HeadAndShouldersPattern.cs"/>
+        <Compile Include="Patterns\IPattern.cs"/>
+        <Compile Include="Patterns\PatternBase.cs"/>
+        <Compile Include="Patterns\CyclesPattern.cs"/>
+        <Compile Include="Patterns\TrendBasedFibonacciTimePatternSettings.cs"/>
+        <Compile Include="Patterns\TrianglePattern.cs"/>
+        <Compile Include="Settings.cs"/>
+    </ItemGroup>
+</Project>
